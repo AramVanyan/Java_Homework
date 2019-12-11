@@ -22,7 +22,7 @@ public class Task2 {
         return age1>age2?(age1>age3?human1.getLastName():human3.getLastName()):(age2>age3?human2.getLastName():human3.getLastName());
     }
     public static void printLastNamesTogether(Human human1,Human human2){
-        System.out.println(human1.getLastName() + human2.getLastName());
+        System.out.println(human1.getLastName() + " " + human2.getLastName());
     }
     public static void printIfTrue(Human human,boolean bool){
         System.out.println(bool?human.getFirstName():human.getLastName());
