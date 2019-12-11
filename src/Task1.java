@@ -78,6 +78,16 @@ public class Task1 {
         }
         System.out.println(count);
     }
+    public static void if_b_IsPresent(String string){
+        boolean is_b_present = false;
+        for (int i = 0; i <string.length() ; i++) {
+            if(string.charAt(i)=='b'){
+                is_b_present = true;
+                break;
+            }
+        }
+        System.out.println(is_b_present?"Yes":"No");
+    }
     public static void main(String[] args) {
 
     }
