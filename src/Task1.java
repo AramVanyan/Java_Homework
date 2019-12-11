@@ -14,7 +14,14 @@ public class Task1 {
             arr[i]=i+1;
         }
     }
-
+    public static void fillWithEvenNumbers(byte [] arr){
+        int count = 0;
+        for (int i = -30; i <=30; i++) {
+            if(i!=0 && i%2==0){
+                arr[count++] = (byte)i;
+            }
+        }
+    }
     public static void main(String[] args) {
 
     }
