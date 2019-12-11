@@ -35,6 +35,13 @@ public class Task1 {
             if(arr[i]%5==0) System.out.println(arr[i]);
         }
     }
+    public static void printGreaterThan24_56(double [] arr){
+        for (int i = 0; i <arr.length ; i++) {
+            if(arr[i]>24.56){
+                System.out.println(arr[i]);
+            }
+        }
+    }
 
     public static void main(String[] args) {
 
