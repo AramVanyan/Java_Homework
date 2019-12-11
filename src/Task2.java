@@ -34,6 +34,13 @@ public class Task2 {
         }
         return max;
     }
+    public static int printIndexOfMinimal(float []arr){
+        int indexOfMinimal = 0;
+        for (int i = 1; i <arr.length ; i++) {
+            if(arr[i]<arr[indexOfMinimal]) indexOfMinimal = i;
+        }
+        return indexOfMinimal;
+    }
     public static void main(String[] args) {
 
     }
