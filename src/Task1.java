@@ -88,6 +88,14 @@ public class Task1 {
         }
         System.out.println(is_b_present?"Yes":"No");
     }
+    public static void numberOfPowersOfTwo(int [] arr){
+        int count = 0;
+        for (int i = 0; i <arr.length ; i++) {
+            boolean result = arr[i] > 0 && ((arr[i] & (arr[i] - 1)) == 0);
+            if(result) count++;
+        }
+        System.out.println(count);
+    }
     public static void main(String[] args) {
 
     }
