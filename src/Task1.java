@@ -9,6 +9,12 @@ public class Task1 {
             arr[i]=0;
         }
     }
+    public static void fillFromOneToThousand(int [] arr){
+        for (int i = 0; i <arr.length; i++) {
+            arr[i]=i+1;
+        }
+    }
+
     public static void main(String[] args) {
 
     }
