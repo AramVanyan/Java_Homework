@@ -15,7 +15,12 @@ public class Task2 {
         if(human.getGender()=="male") System.out.println("Yes");
         else System.out.println("No");
     }
-
+    public static String returnLastNameOfTheOldest(Human human1,Human human2,Human human3){
+        int age1 = human1.getAge();
+        int age2 = human2.getAge();
+        int age3 = human3.getAge();
+        return age1>age2?(age1>age3?human1.getLastName():human3.getLastName()):(age2>age3?human2.getLastName():human3.getLastName());
+    }
     public static void main(String[] args) {
 
     }
