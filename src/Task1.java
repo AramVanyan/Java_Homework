@@ -22,6 +22,15 @@ public class Task1 {
             }
         }
     }
+    public static void fillWithOddNumbers(short [] arr){
+        int count = 0;
+        for (int i = 0; i <300; i++) {
+            if(i%2!=0){
+                arr[count++] = (short)i;
+            }
+        }
+    }
+
     public static void main(String[] args) {
 
     }
