@@ -41,7 +41,21 @@ public class Task2 {
         }
         return indexOfMinimal;
     }
-    public static void main(String[] args) {
-
+    public static void sortByIncreaseOfAge(Human []humans){
+        for (int i = 0; i <humans.length; i++) {
+            for (int j = 0; j <humans.length-i-1 ; j++) {
+               if(humans[j].getAge()>humans[j+1].getAge()){
+                   Human temp = humans[j];
+                   humans[j] = humans[j+1];
+                   humans[j+1] = temp;
+               }
+            }
+        }
+        for (int i = 0; i <humans.length ; i++) {
+            System.out.println("Age is: " + humans[i].getAge());
+            System.out.println("FirstName is: " + humans[i].getFirstName());
+            System.out.println("LastName is: " + humans[i].getLastName());
+            System.out.println("-------------------------------\n");
+        }
     }
 }

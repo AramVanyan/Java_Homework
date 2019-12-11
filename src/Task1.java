@@ -96,7 +96,4 @@ public class Task1 {
         }
         System.out.println(count);
     }
-    public static void main(String[] args) {
-
-    }
 }
