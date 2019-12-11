@@ -30,6 +30,11 @@ public class Task1 {
             }
         }
     }
+    public static void printMultiplesOfFive(int [] arr){
+        for (int i = 0; i <arr.length ; i++) {
+            if(arr[i]%5==0) System.out.println(arr[i]);
+        }
+    }
 
     public static void main(String[] args) {
 
