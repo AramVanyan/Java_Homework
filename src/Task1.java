@@ -42,6 +42,13 @@ public class Task1 {
             }
         }
     }
+    public static void printGreater35_56_OR_Less_minus34_655(float [] arr){
+        for (int i = 0; i <arr.length ; i++) {
+            if(arr[i]>35.56||arr[i]<-34.655){
+                System.out.println(arr[i]);
+            }
+        }
+    }
 
     public static void main(String[] args) {
 
