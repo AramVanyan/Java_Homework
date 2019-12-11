@@ -27,6 +27,13 @@ public class Task2 {
     public static void printIfTrue(Human human,boolean bool){
         System.out.println(bool?human.getFirstName():human.getLastName());
     }
+    public static int printMaxElement(int []arr){
+        int max = arr[0];
+        for (int i = 1; i <arr.length ; i++) {
+            if(arr[i]>max) max = arr[i];
+        }
+        return max;
+    }
     public static void main(String[] args) {
 
     }
