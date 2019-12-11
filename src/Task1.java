@@ -71,6 +71,13 @@ public class Task1 {
             }
         }
     }
+    public static void numberOfa(String string){
+        int count = 0;
+        for (int i = 0; i <string.length() ; i++) {
+            if(string.charAt(i)=='a') count++;
+        }
+        System.out.println(count);
+    }
     public static void main(String[] args) {
 
     }
